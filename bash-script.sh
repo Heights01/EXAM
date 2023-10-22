@@ -145,11 +145,11 @@ echo "Password:   $PASS"
 
 #########################################################
 
-sudo sed -i 's/DB_DATABASE=laravel/DB_DATABASE=teddi/' /var/www/html/laravel/.env
+sudo sed -i 's/DB_DATABASE=laravel/DB_DATABASE=heights/' /var/www/html/laravel/.env
 
-sudo sed -i 's/DB_USERNAME=root/DB_USERNAME=teddi/' /var/www/html/laravel/.env
+sudo sed -i 's/DB_USERNAME=root/DB_USERNAME=heights/' /var/www/html/laravel/.env
 
-sudo sed -i 's/DB_PASSWORD=/DB_PASSWORD=teddi90/' /var/www/html/laravel/.env
+sudo sed -i 's/DB_PASSWORD=/DB_PASSWORD=heights90/' /var/www/html/laravel/.env
 
 php artisan config:cache
 

@@ -32,5 +32,5 @@
     command: chmod +x ~/laravel-slave.sh
 
   - name: Run Bash Script
-    command: bash laravel-slave.sh teddi teddi90 < /dev/null 
+    command: bash laravel-slave.sh heights heights90 < /dev/null 
 
